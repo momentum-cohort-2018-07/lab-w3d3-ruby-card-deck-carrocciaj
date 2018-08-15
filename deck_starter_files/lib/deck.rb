@@ -1,4 +1,5 @@
 require_relative "card"
 
-class Deck
+class Deck < Card
+  
 end
