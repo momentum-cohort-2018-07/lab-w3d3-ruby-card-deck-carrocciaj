@@ -22,6 +22,6 @@ class Deck
     end
 
     def cards_left
-        @deck.length
+      @deck.length
     end
 end
