@@ -1,6 +1,5 @@
 require_relative "card"
 class Deck
-    
     attr_accessor :deck
     def initialize
         @deck = []
@@ -12,7 +11,6 @@ class Deck
           end
         end
     end
-
     def draw
       @deck.shift
     end
