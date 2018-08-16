@@ -16,4 +16,12 @@ class Deck
     def draw
       @deck.shift
     end
+
+    def shuffle
+      @deck.shuffle!
+    end
+
+    def cards_left
+        @deck.length
+    end
 end
